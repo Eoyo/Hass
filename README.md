@@ -93,20 +93,20 @@ you get :
 ```
 you get : 
     
-      ```html 
-        <div>
-          <div>0</div>
-          <div>1</div>
-        </div>
-        <div>
-          <div>0</div>
-          <div>1</div>
-        </div>
-      ```
+```html 
+<div>
+	<div>0</div>
+	<div>1</div>
+</div>
+<div>
+	<div>0</div>
+	<div>1</div>
+</div>
+```
       
  #### 5.3 Defualt values
  + it is start at 0;
- + you can set start value like this : `3*div{$}(2)` then get : `<div>2<div><div>3<div><div>4<div>`
+ + you can set start value like this : `3*div{$}(2)` then get : `<div>2</div><div>3</div><div>4</div>`
  #### 5.4 Declare **JS variable**
  ```css
   div{$}(good)    /*Declare js variable*/
