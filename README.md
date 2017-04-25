@@ -60,11 +60,11 @@ div{
 }([1,2,3],[0,0,1])  /*past by array order by order*/
 ```
 + you will get :
-    ```html
-      <div id = "good1div"> 0 </div>
-      <div id = "good2div"> 0 </div>
-      <div id = "good3div"> 1 </div>
-    ```
+```html
+	<div id = "good1div"> 0 </div>
+	<div id = "good2div"> 0 </div>
+	<div id = "good3div"> 1 </div>
+```
  
 #### 5.2 when it is wrapped by a father;
 + don't give values to child , but declare evaluation by () on **parent**
@@ -73,17 +73,18 @@ div{
   2*div{$}
 }()
 ```
-you get : 
-        ```html 
-          <div>
-            <div>0</div>
-            <div>1</div>
-          </div>
-          <div>
-            <div>2</div>
-            <div>3</div>
-          </div>
-        ```
+you get :
+
+```html 
+<div>
+	<div>0</div>
+	<div>1</div>
+</div>
+<div>
+	<div>2</div>
+	<div>3</div>
+</div>
+```
 +  declare evaluation by () on **children**
 ```css
 2*div{
@@ -117,8 +118,10 @@ you get :
   div{$}(good)
   div#Suger{$}(good)
  ```
-there are two good:
---first one : Hass.arg.good; 
---second one : Hass.at(Suger).good
+there are two  **good**
+- first one : Hass.arg.good;  //Hass grobal variable
+- second one : Hass.at(Suger).good  //One Elememt's variable
+
+It is **complex!!**,I will tell more at **JS Use Section**
 
 
