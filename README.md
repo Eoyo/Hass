@@ -40,7 +40,7 @@ div{
   }
 ```
  + Just display as what you like
-### 4. Abreviation
+### 4. Abbreviation
 ```css
 .good{
   div#head{}
